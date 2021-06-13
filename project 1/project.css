@@ -1,0 +1,114 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+header{
+    background: url(backg.jpg);
+    background-size: cover;
+}
+
+.head{
+    position: relative;
+    height: 125px;
+    top: 25px;
+    width: 75vw;
+  }
+
+  .head span{
+      font-size: 38px;
+      color: white;
+  }
+  .headb{
+      color: white;
+  }
+
+  .head, .navbar{
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .navbar{
+      display: flex;
+      flex-flow: wrap;
+      width: 80vw;
+      background:rgb(81, 151, 236) ;
+  }
+
+   nav ul li a {
+      color: white;
+      font-size:18px ;
+      padding:35px 25px;
+      text-transform: uppercase;
+      border-radius: 2px;
+  }
+
+  nav ul li{
+     display: inline-block;
+     line-height:90px ;
+  }
+
+  a.color, a:hover{
+      background: rgb(40, 126, 224);
+      transition: 0.5s;
+  }
+  body{
+      background: url(gray.jpg);
+      background-size: cover;
+     
+  }
+
+  #box{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto 0 auto;
+    background: white;
+  }
+
+  .boxleft{
+    text-align: left;
+    width: 71%;
+    padding: 3%;
+    padding-top: 4%;
+  }
+
+
+.boxright{
+    width: 27%;
+    padding: 1.5%;
+    padding-top: 4%;
+  }
+
+.boxright ul li {
+    list-style-type: none;
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 25px;
+  }
+
+  footer {
+    font: normal 100% "lucida sans unicode", arial, sans-serif;
+    background: rgb(80, 152, 240);
+    color: white;
+    margin: 0 auto 10vh auto;
+    width: 80vw;
+    height: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 7px;
+  }
+
+  a{
+      color: rgb(228, 74, 126);
+  }
+
+  .text{
+      color: rgb(77,151,240);
+  }
+  .linespace{
+      line-height: 40px;
+  }
+
